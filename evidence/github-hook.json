@@ -1,0 +1,25 @@
+{
+  "type": "Repository",
+  "id": 697414512,
+  "name": "web",
+  "active": true,
+  "events": [
+    "push"
+  ],
+  "config": {
+    "url": "https://clarke-executive-str-artists.trycloudflare.com/hook/github",
+    "content_type": "json",
+    "insecure_ssl": "0"
+  },
+  "updated_at": "2026-10-14T03:41:55Z",
+  "created_at": "2026-10-14T03:41:55Z",
+  "url": "https://api.github.com/repos/YangKeao/security-embargo-private-lab-20261014/hooks/697414512",
+  "test_url": "https://api.github.com/repos/YangKeao/security-embargo-private-lab-20261014/hooks/697414512/test",
+  "ping_url": "https://api.github.com/repos/YangKeao/security-embargo-private-lab-20261014/hooks/697414512/pings",
+  "deliveries_url": "https://api.github.com/repos/YangKeao/security-embargo-private-lab-20261014/hooks/697414512/deliveries",
+  "last_response": {
+    "code": null,
+    "status": "unused",
+    "message": null
+  }
+}

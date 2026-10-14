@@ -1,0 +1,7 @@
+{
+  "git": "git version 2.55.0",
+  "gh": "gh version 2.96.0 (2026-08-15)",
+  "gpg": "gpg (GnuPG) 2.5.21",
+  "jenkins/jenkins:lts-jdk21": "jenkins/jenkins@sha256:a660310e39ade10631f774bacd5219de767dfd08947ea5c32a739b5e5bb382c1",
+  "jenkins_version": "2.580.1"
+}

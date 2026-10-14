@@ -1,0 +1,16 @@
+{
+  "pr": 1,
+  "url": "https://github.com/YangKeao/security-alternatives-public-lab-20261014/pull/1",
+  "sha": "b2f916bec27ec58011df0d56ea7064b01157282a",
+  "blocked_response": {
+    "message": "Required status check \"jenkins/synthetic-gate\" is pending.",
+    "documentation_url": "https://docs.github.com/articles/about-protected-branches",
+    "status": "405"
+  },
+  "merged": {
+    "sha": "025cec7a5f68ec6436d6285227f2993092c27f3c",
+    "merged": true,
+    "message": "Pull Request successfully merged"
+  },
+  "note": "Actual public-repository gate proof. Current private-account branch protection is unsupported; this does not claim private gate enforcement."
+}

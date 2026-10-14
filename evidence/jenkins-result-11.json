@@ -1,0 +1,9 @@
+{
+  "sha": "c11990cd14ceeb65286bc4a0cb51f5d170bbb994",
+  "repo": "YangKeao/security-embargo-private-lab-20261014",
+  "context": "jenkins/synthetic-regression",
+  "build": 11,
+  "result": "SUCCESS",
+  "url": "http://127.0.0.1:18981/job/synthetic-embargo/11/",
+  "status_id": 56291699599
+}

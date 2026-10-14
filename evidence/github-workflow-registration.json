@@ -1,0 +1,116 @@
+[
+  {
+    "repo": "security-embargo-private-lab-20261014",
+    "exit": 0,
+    "result": {
+      "content": {
+        "name": "ci.yml",
+        "path": ".github/workflows/ci.yml",
+        "sha": "367cf3382e33b221ec90b83fb16d94acebabd86c",
+        "size": 286,
+        "url": "https://api.github.com/repos/YangKeao/security-embargo-private-lab-20261014/contents/.github/workflows/ci.yml?ref=main",
+        "html_url": "https://github.com/YangKeao/security-embargo-private-lab-20261014/blob/main/.github/workflows/ci.yml",
+        "git_url": "https://api.github.com/repos/YangKeao/security-embargo-private-lab-20261014/git/blobs/367cf3382e33b221ec90b83fb16d94acebabd86c",
+        "download_url": "https://raw.githubusercontent.com/YangKeao/security-embargo-private-lab-20261014/main/.github/workflows/ci.yml?token=ABIALHGXGX7VFXIQEYHX77TKZ34FI",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/YangKeao/security-embargo-private-lab-20261014/contents/.github/workflows/ci.yml?ref=main",
+          "git": "https://api.github.com/repos/YangKeao/security-embargo-private-lab-20261014/git/blobs/367cf3382e33b221ec90b83fb16d94acebabd86c",
+          "html": "https://github.com/YangKeao/security-embargo-private-lab-20261014/blob/main/.github/workflows/ci.yml"
+        }
+      },
+      "commit": {
+        "sha": "384e9840295602e35e016fa5565b25ead7e73c8a",
+        "node_id": "C_kwDOVImUzNoAKDM4NGU5ODQwMjk1NjAyZTM1ZTAxNmZhNTU2NWIyNWVhZDdlNzNjOGE",
+        "url": "https://api.github.com/repos/YangKeao/security-embargo-private-lab-20261014/git/commits/384e9840295602e35e016fa5565b25ead7e73c8a",
+        "html_url": "https://github.com/YangKeao/security-embargo-private-lab-20261014/commit/384e9840295602e35e016fa5565b25ead7e73c8a",
+        "author": {
+          "name": "YangKeao",
+          "email": "yangkeao@chunibyo.icu",
+          "date": "2026-10-14T03:33:44Z"
+        },
+        "committer": {
+          "name": "YangKeao",
+          "email": "yangkeao@chunibyo.icu",
+          "date": "2026-10-14T03:33:44Z"
+        },
+        "tree": {
+          "sha": "17973038e196c13f8a6fb5369b815bcbee2659d7",
+          "url": "https://api.github.com/repos/YangKeao/security-embargo-private-lab-20261014/git/trees/17973038e196c13f8a6fb5369b815bcbee2659d7"
+        },
+        "message": "lab: explicit dispatchable CI workflow",
+        "parents": [
+          {
+            "sha": "89f709484161bda5ecef0edc8715e18fb450d33c",
+            "url": "https://api.github.com/repos/YangKeao/security-embargo-private-lab-20261014/git/commits/89f709484161bda5ecef0edc8715e18fb450d33c",
+            "html_url": "https://github.com/YangKeao/security-embargo-private-lab-20261014/commit/89f709484161bda5ecef0edc8715e18fb450d33c"
+          }
+        ],
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      }
+    }
+  },
+  {
+    "repo": "security-alternatives-public-lab-20261014",
+    "exit": 0,
+    "result": {
+      "content": {
+        "name": "ci.yml",
+        "path": ".github/workflows/ci.yml",
+        "sha": "367cf3382e33b221ec90b83fb16d94acebabd86c",
+        "size": 286,
+        "url": "https://api.github.com/repos/YangKeao/security-alternatives-public-lab-20261014/contents/.github/workflows/ci.yml?ref=main",
+        "html_url": "https://github.com/YangKeao/security-alternatives-public-lab-20261014/blob/main/.github/workflows/ci.yml",
+        "git_url": "https://api.github.com/repos/YangKeao/security-alternatives-public-lab-20261014/git/blobs/367cf3382e33b221ec90b83fb16d94acebabd86c",
+        "download_url": "https://raw.githubusercontent.com/YangKeao/security-alternatives-public-lab-20261014/main/.github/workflows/ci.yml",
+        "type": "file",
+        "_links": {
+          "self": "https://api.github.com/repos/YangKeao/security-alternatives-public-lab-20261014/contents/.github/workflows/ci.yml?ref=main",
+          "git": "https://api.github.com/repos/YangKeao/security-alternatives-public-lab-20261014/git/blobs/367cf3382e33b221ec90b83fb16d94acebabd86c",
+          "html": "https://github.com/YangKeao/security-alternatives-public-lab-20261014/blob/main/.github/workflows/ci.yml"
+        }
+      },
+      "commit": {
+        "sha": "39b3de0cfbad5281b716cb3d9f1a5b33e4a69aff",
+        "node_id": "C_kwDOVImUTtoAKDM5YjNkZTBjZmJhZDUyODFiNzE2Y2IzZDlmMWE1YjMzZTRhNjlhZmY",
+        "url": "https://api.github.com/repos/YangKeao/security-alternatives-public-lab-20261014/git/commits/39b3de0cfbad5281b716cb3d9f1a5b33e4a69aff",
+        "html_url": "https://github.com/YangKeao/security-alternatives-public-lab-20261014/commit/39b3de0cfbad5281b716cb3d9f1a5b33e4a69aff",
+        "author": {
+          "name": "YangKeao",
+          "email": "yangkeao@chunibyo.icu",
+          "date": "2026-10-14T03:33:46Z"
+        },
+        "committer": {
+          "name": "YangKeao",
+          "email": "yangkeao@chunibyo.icu",
+          "date": "2026-10-14T03:33:46Z"
+        },
+        "tree": {
+          "sha": "17973038e196c13f8a6fb5369b815bcbee2659d7",
+          "url": "https://api.github.com/repos/YangKeao/security-alternatives-public-lab-20261014/git/trees/17973038e196c13f8a6fb5369b815bcbee2659d7"
+        },
+        "message": "lab: explicit dispatchable CI workflow",
+        "parents": [
+          {
+            "sha": "89f709484161bda5ecef0edc8715e18fb450d33c",
+            "url": "https://api.github.com/repos/YangKeao/security-alternatives-public-lab-20261014/git/commits/89f709484161bda5ecef0edc8715e18fb450d33c",
+            "html_url": "https://github.com/YangKeao/security-alternatives-public-lab-20261014/commit/89f709484161bda5ecef0edc8715e18fb450d33c"
+          }
+        ],
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      }
+    }
+  }
+]

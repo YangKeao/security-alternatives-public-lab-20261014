@@ -1,0 +1,18 @@
+[
+  {
+    "case": "A",
+    "ghsa_id": "GHSA-pjwp-c2g7-4xhc",
+    "url": "https://github.com/YangKeao/security-alternatives-public-lab-20261014/security/advisories/GHSA-pjwp-c2g7-4xhc",
+    "state": "draft",
+    "private_pr": "https://github.com/YangKeao/security-embargo-private-lab-20261014/pull/2",
+    "sha": "149592432e3e6d36f02234b7c8b454f200627268"
+  },
+  {
+    "case": "B",
+    "ghsa_id": "GHSA-2652-9xcx-9vg4",
+    "url": "https://github.com/YangKeao/security-alternatives-public-lab-20261014/security/advisories/GHSA-2652-9xcx-9vg4",
+    "state": "draft",
+    "private_pr": "https://github.com/YangKeao/security-embargo-private-lab-20261014/pull/4",
+    "sha": "3194b28e5444d8c407674c9b4e5dd57899296d78"
+  }
+]

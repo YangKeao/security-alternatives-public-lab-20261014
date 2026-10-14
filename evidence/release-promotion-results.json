@@ -1,0 +1,44 @@
+[
+  {
+    "asset": "release-bundle.gitbundle.gpg",
+    "sha256": "f452dd046f93656884b602d42eb4332c6056fcd18d87dfe3c48fa3d38bae7943",
+    "authenticated_download_matches": true,
+    "anonymous_http": 404,
+    "public_promotion_hash_matches": true
+  },
+  {
+    "asset": "release-manifest.json",
+    "sha256": "d8c41f91e44f05514365cf01b438573ba74380e643bfaede6790936a9acf01de",
+    "authenticated_download_matches": true,
+    "anonymous_http": 404,
+    "public_promotion_hash_matches": true
+  },
+  {
+    "asset": "release-manifest.json.asc",
+    "sha256": "3311f48aed16e70fbf307476179656a8fe9b7efbf61643ee0bf482ae79ded0bb",
+    "authenticated_download_matches": true,
+    "anonymous_http": 404,
+    "public_promotion_hash_matches": true
+  },
+  {
+    "asset": "maintainer-public.asc",
+    "sha256": "e3cde7aff7283ff274ff516a4edba53feac53dd624fa1497ab8caac820af6b64",
+    "authenticated_download_matches": true,
+    "anonymous_http": 404,
+    "public_promotion_hash_matches": true
+  },
+  {
+    "asset": "lab-rc1-8.5.tar",
+    "sha256": "789b365b31a2c5a4460a36e740fd9d874330b47331f5711f41362957f4ffc8df",
+    "authenticated_download_matches": true,
+    "anonymous_http": 404,
+    "public_promotion_hash_matches": true
+  },
+  {
+    "asset": "lab-rc1-8.1.tar",
+    "sha256": "7aa15bc42afe77e9c5a1e47ead269b7be3d42ba673789f3719f1dda9bd218836",
+    "authenticated_download_matches": true,
+    "anonymous_http": 404,
+    "public_promotion_hash_matches": true
+  }
+]

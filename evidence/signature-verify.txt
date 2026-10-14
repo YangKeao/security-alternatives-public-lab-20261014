@@ -1,0 +1,6 @@
+gpg: Signature made Wed Oct 14 11:43:13 2026 CST
+gpg:                using EDDSA key ACC2BD042B7599A7FCC9C7B605F04BF101904891
+gpg: Good signature from "Synthetic maintainer <maintainer@example.invalid>" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+      ACC2BD042B7599A7FCC9C7B605F04BF101904891

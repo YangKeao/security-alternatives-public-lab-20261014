@@ -1,0 +1,14 @@
+{
+  "paused_at": 1791951482.7725122,
+  "stopped": [
+    {
+      "component": "temporary-tunnel",
+      "pid": 1695640
+    },
+    {
+      "component": "github-webhook-bridge",
+      "pid": 1703569
+    }
+  ],
+  "jenkins": "retained and running on localhost18981"
+}

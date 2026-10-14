@@ -1,0 +1,38 @@
+[
+  {
+    "variant": "demo-a",
+    "base_commit": "00c68f8015e041347ca6e955801bcb36a8039810",
+    "already_in_base": [
+      "LAB-A",
+      "LAB-B"
+    ],
+    "patch_order": [
+      {
+        "file": "customer-demo-a.patch",
+        "canonical_commit": "d181662cee26b5d3cce9318d1df57c78fc531209",
+        "sha256": "3a791ed35fb19ac6bd05cf6586abef1ac148bd0964e4d9c157a364adf3092644"
+      }
+    ],
+    "expected_tree": "700b88dda42195e4428440fcb1f4a7d1efc9d87a",
+    "rebuilt_tree_matches": true,
+    "regression_exit": 0
+  },
+  {
+    "variant": "demo-b",
+    "base_commit": "00c68f8015e041347ca6e955801bcb36a8039810",
+    "already_in_base": [
+      "LAB-A",
+      "LAB-B"
+    ],
+    "patch_order": [
+      {
+        "file": "customer-demo-b.patch",
+        "canonical_commit": "a9e9824640f29956aefe3cb6afa8f8a987d2b443",
+        "sha256": "c9b24654d7139a8a05084c01b81a8716d147f25c9e7d57657e77c318457fa11f"
+      }
+    ],
+    "expected_tree": "8a91e7b9c94216b4d2861866ac7c77e16c576672",
+    "rebuilt_tree_matches": true,
+    "regression_exit": 0
+  }
+]

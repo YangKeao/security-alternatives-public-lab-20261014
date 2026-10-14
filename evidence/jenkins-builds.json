@@ -1,0 +1,29 @@
+[
+  {
+    "label": "regression-before-fix",
+    "sha": "f61f240fc7a6f8976fe5bec3b28755f763966db6",
+    "build": 1,
+    "result": "FAILURE",
+    "url": "http://127.0.0.1:18981/job/synthetic-embargo/1/",
+    "expected": "FAILURE",
+    "github_status_id": 56290870495
+  },
+  {
+    "label": "A",
+    "sha": "149592432e3e6d36f02234b7c8b454f200627268",
+    "build": 2,
+    "result": "SUCCESS",
+    "url": "http://127.0.0.1:18981/job/synthetic-embargo/2/",
+    "expected": "SUCCESS",
+    "github_status_id": 56290878026
+  },
+  {
+    "label": "B",
+    "sha": "3194b28e5444d8c407674c9b4e5dd57899296d78",
+    "build": 3,
+    "result": "SUCCESS",
+    "url": "http://127.0.0.1:18981/job/synthetic-embargo/3/",
+    "expected": "SUCCESS",
+    "github_status_id": 56290884917
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "ghsa_id": "GHSA-pjwp-c2g7-4xhc",
+    "state": "draft",
+    "cve_id": null,
+    "published_at": null
+  },
+  {
+    "ghsa_id": "GHSA-2652-9xcx-9vg4",
+    "state": "draft",
+    "cve_id": null,
+    "published_at": null
+  },
+  {
+    "issue": 1,
+    "state": "closed"
+  },
+  {
+    "issue": 3,
+    "state": "closed"
+  }
+]

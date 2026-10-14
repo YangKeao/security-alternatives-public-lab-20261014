@@ -1,0 +1,256 @@
+[
+  {
+    "method": "PUT",
+    "path": "repos/YangKeao/security-alternatives-public-lab-20261014/private-vulnerability-reporting",
+    "exit": 0,
+    "response": {}
+  },
+  {
+    "method": "POST",
+    "path": "repos/YangKeao/security-alternatives-public-lab-20261014/security-advisories",
+    "exit": 0,
+    "response": {
+      "ghsa_id": "GHSA-pjwp-c2g7-4xhc",
+      "cve_id": null,
+      "url": "https://api.github.com/repos/YangKeao/security-alternatives-public-lab-20261014/security-advisories/GHSA-pjwp-c2g7-4xhc",
+      "html_url": "https://github.com/YangKeao/security-alternatives-public-lab-20261014/security/advisories/GHSA-pjwp-c2g7-4xhc",
+      "summary": "[SYNTHETIC] LAB-A hybrid workflow demonstration",
+      "description": "### Impact\nEntirely synthetic LAB-A; no actual product vulnerability, CVE or affected customer.\n\n### Patches\nThis draft tracks a synthetic case while development/CI takes place in a standing private repository.\nPrivate fix PR: https://github.com/YangKeao/security-embargo-private-lab-20261014/pull/2\nCanonical synthetic commit: 149592432e3e6d36f02234b7c8b454f200627268\n\n### Workarounds\nNo real remediation is needed.\n\n### References\nPrivate integration has two LTS backport PRs and an encrypted RC manifest. No public advisory publication is requested.\n",
+      "severity": "low",
+      "author": {
+        "login": "YangKeao",
+        "id": 5244316,
+        "node_id": "MDQ6VXNlcjUyNDQzMTY=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/5244316?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/YangKeao",
+        "html_url": "https://github.com/YangKeao",
+        "followers_url": "https://api.github.com/users/YangKeao/followers",
+        "following_url": "https://api.github.com/users/YangKeao/following{/other_user}",
+        "gists_url": "https://api.github.com/users/YangKeao/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/YangKeao/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/YangKeao/subscriptions",
+        "organizations_url": "https://api.github.com/users/YangKeao/orgs",
+        "repos_url": "https://api.github.com/users/YangKeao/repos",
+        "events_url": "https://api.github.com/users/YangKeao/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/YangKeao/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "publisher": null,
+      "identifiers": [
+        {
+          "value": "GHSA-pjwp-c2g7-4xhc",
+          "type": "GHSA"
+        }
+      ],
+      "state": "draft",
+      "created_at": "2026-10-14T03:47:45Z",
+      "updated_at": "2026-10-14T03:47:45Z",
+      "published_at": null,
+      "closed_at": null,
+      "withdrawn_at": null,
+      "submission": null,
+      "vulnerabilities": [],
+      "cvss_severities": {
+        "cvss_v3": {
+          "vector_string": null,
+          "score": null
+        },
+        "cvss_v4": {
+          "vector_string": null,
+          "score": null
+        }
+      },
+      "cwes": [],
+      "cwe_ids": [],
+      "credits": [],
+      "credits_detailed": [],
+      "collaborating_users": [],
+      "collaborating_teams": [],
+      "private_fork": null,
+      "comments": 0,
+      "cvss": {
+        "vector_string": null,
+        "score": null
+      }
+    }
+  },
+  {
+    "method": "POST",
+    "path": "repos/YangKeao/security-embargo-private-lab-20261014/issues/1/comments",
+    "exit": 0,
+    "response": {
+      "url": "https://api.github.com/repos/YangKeao/security-embargo-private-lab-20261014/issues/comments/6160437966",
+      "html_url": "https://github.com/YangKeao/security-embargo-private-lab-20261014/issues/1#issuecomment-6160437966",
+      "issue_url": "https://api.github.com/repos/YangKeao/security-embargo-private-lab-20261014/issues/1",
+      "id": 6160437966,
+      "node_id": "IC_kwDOVImUzM8AAAABbzDSzg",
+      "user": {
+        "login": "YangKeao",
+        "id": 5244316,
+        "node_id": "MDQ6VXNlcjUyNDQzMTY=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/5244316?u=8bebc3f1abbd1add616638177ae874babe47f293&v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/YangKeao",
+        "html_url": "https://github.com/YangKeao",
+        "followers_url": "https://api.github.com/users/YangKeao/followers",
+        "following_url": "https://api.github.com/users/YangKeao/following{/other_user}",
+        "gists_url": "https://api.github.com/users/YangKeao/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/YangKeao/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/YangKeao/subscriptions",
+        "organizations_url": "https://api.github.com/users/YangKeao/orgs",
+        "repos_url": "https://api.github.com/users/YangKeao/repos",
+        "events_url": "https://api.github.com/users/YangKeao/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/YangKeao/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "created_at": "2026-10-14T03:47:46Z",
+      "updated_at": "2026-10-14T03:47:46Z",
+      "author_association": "OWNER",
+      "body": "Synthetic hybrid case record: GHSA-pjwp-c2g7-4xhc. Draft-only; no CVE requested. Development and immutable-SHA CI are retained in this ordinary private repository, not in a temporary advisory fork.",
+      "reactions": {
+        "url": "https://api.github.com/repos/YangKeao/security-embargo-private-lab-20261014/issues/comments/6160437966/reactions",
+        "total_count": 0,
+        "+1": 0,
+        "-1": 0,
+        "laugh": 0,
+        "hooray": 0,
+        "confused": 0,
+        "heart": 0,
+        "rocket": 0,
+        "eyes": 0
+      },
+      "performed_via_github_app": null,
+      "minimized": null,
+      "pin": null
+    }
+  },
+  {
+    "method": "POST",
+    "path": "repos/YangKeao/security-alternatives-public-lab-20261014/security-advisories",
+    "exit": 0,
+    "response": {
+      "ghsa_id": "GHSA-2652-9xcx-9vg4",
+      "cve_id": null,
+      "url": "https://api.github.com/repos/YangKeao/security-alternatives-public-lab-20261014/security-advisories/GHSA-2652-9xcx-9vg4",
+      "html_url": "https://github.com/YangKeao/security-alternatives-public-lab-20261014/security/advisories/GHSA-2652-9xcx-9vg4",
+      "summary": "[SYNTHETIC] LAB-B hybrid workflow demonstration",
+      "description": "### Impact\nEntirely synthetic LAB-B; no actual product vulnerability, CVE or affected customer.\n\n### Patches\nThis draft tracks a synthetic case while development/CI takes place in a standing private repository.\nPrivate fix PR: https://github.com/YangKeao/security-embargo-private-lab-20261014/pull/4\nCanonical synthetic commit: 3194b28e5444d8c407674c9b4e5dd57899296d78\n\n### Workarounds\nNo real remediation is needed.\n\n### References\nPrivate integration has two LTS backport PRs and an encrypted RC manifest. No public advisory publication is requested.\n",
+      "severity": "low",
+      "author": {
+        "login": "YangKeao",
+        "id": 5244316,
+        "node_id": "MDQ6VXNlcjUyNDQzMTY=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/5244316?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/YangKeao",
+        "html_url": "https://github.com/YangKeao",
+        "followers_url": "https://api.github.com/users/YangKeao/followers",
+        "following_url": "https://api.github.com/users/YangKeao/following{/other_user}",
+        "gists_url": "https://api.github.com/users/YangKeao/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/YangKeao/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/YangKeao/subscriptions",
+        "organizations_url": "https://api.github.com/users/YangKeao/orgs",
+        "repos_url": "https://api.github.com/users/YangKeao/repos",
+        "events_url": "https://api.github.com/users/YangKeao/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/YangKeao/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "publisher": null,
+      "identifiers": [
+        {
+          "value": "GHSA-2652-9xcx-9vg4",
+          "type": "GHSA"
+        }
+      ],
+      "state": "draft",
+      "created_at": "2026-10-14T03:47:47Z",
+      "updated_at": "2026-10-14T03:47:47Z",
+      "published_at": null,
+      "closed_at": null,
+      "withdrawn_at": null,
+      "submission": null,
+      "vulnerabilities": [],
+      "cvss_severities": {
+        "cvss_v3": {
+          "vector_string": null,
+          "score": null
+        },
+        "cvss_v4": {
+          "vector_string": null,
+          "score": null
+        }
+      },
+      "cwes": [],
+      "cwe_ids": [],
+      "credits": [],
+      "credits_detailed": [],
+      "collaborating_users": [],
+      "collaborating_teams": [],
+      "private_fork": null,
+      "comments": 0,
+      "cvss": {
+        "vector_string": null,
+        "score": null
+      }
+    }
+  },
+  {
+    "method": "POST",
+    "path": "repos/YangKeao/security-embargo-private-lab-20261014/issues/3/comments",
+    "exit": 0,
+    "response": {
+      "url": "https://api.github.com/repos/YangKeao/security-embargo-private-lab-20261014/issues/comments/6160438366",
+      "html_url": "https://github.com/YangKeao/security-embargo-private-lab-20261014/issues/3#issuecomment-6160438366",
+      "issue_url": "https://api.github.com/repos/YangKeao/security-embargo-private-lab-20261014/issues/3",
+      "id": 6160438366,
+      "node_id": "IC_kwDOVImUzM8AAAABbzDUXg",
+      "user": {
+        "login": "YangKeao",
+        "id": 5244316,
+        "node_id": "MDQ6VXNlcjUyNDQzMTY=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/5244316?u=8bebc3f1abbd1add616638177ae874babe47f293&v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/YangKeao",
+        "html_url": "https://github.com/YangKeao",
+        "followers_url": "https://api.github.com/users/YangKeao/followers",
+        "following_url": "https://api.github.com/users/YangKeao/following{/other_user}",
+        "gists_url": "https://api.github.com/users/YangKeao/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/YangKeao/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/YangKeao/subscriptions",
+        "organizations_url": "https://api.github.com/users/YangKeao/orgs",
+        "repos_url": "https://api.github.com/users/YangKeao/repos",
+        "events_url": "https://api.github.com/users/YangKeao/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/YangKeao/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "created_at": "2026-10-14T03:47:48Z",
+      "updated_at": "2026-10-14T03:47:48Z",
+      "author_association": "OWNER",
+      "body": "Synthetic hybrid case record: GHSA-2652-9xcx-9vg4. Draft-only; no CVE requested. Development and immutable-SHA CI are retained in this ordinary private repository, not in a temporary advisory fork.",
+      "reactions": {
+        "url": "https://api.github.com/repos/YangKeao/security-embargo-private-lab-20261014/issues/comments/6160438366/reactions",
+        "total_count": 0,
+        "+1": 0,
+        "-1": 0,
+        "laugh": 0,
+        "hooray": 0,
+        "confused": 0,
+        "heart": 0,
+        "rocket": 0,
+        "eyes": 0
+      },
+      "performed_via_github_app": null,
+      "minimized": null,
+      "pin": null
+    }
+  }
+]

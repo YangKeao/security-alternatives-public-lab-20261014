@@ -1,0 +1,47 @@
+Started by user labadmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/synthetic-embargo
+[synthetic-embargo] $ /bin/sh -xe /tmp/jenkins2366719656716106823.sh
++ set -eu
++ rm -rf source
++ git clone --no-hardlinks /lab/fixture source
+Cloning into 'source'...
+done.
++ cd source
++ git checkout 7259b130d7cefb02b4527acb7ae07f0fa6e97837
+Note: switching to '7259b130d7cefb02b4527acb7ae07f0fa6e97837'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 7259b13 lab: real private GitHub webhook exercise
++ python3 -m unittest discover -s tests -v
+test_cross_tenant_rejected (test_case_a.CaseA.test_cross_tenant_rejected) ... ok
+test_boundary (test_case_b.CaseB.test_boundary) ... ok
+test_oversized_rejected (test_case_b.CaseB.test_oversized_rejected) ... ok
+test_normal_batch (test_lab.Baseline.test_normal_batch) ... ok
+test_same_tenant (test_lab.Baseline.test_same_tenant) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
++ git archive HEAD
++ sha256sum
++ tee ../artifact-digest.txt
+d130e96b0b1a39fdadc548bc252c4198482ab2d836a871b5ff660d09c67e5027  -
+Archiving artifacts
+Recording fingerprints
+Finished: SUCCESS

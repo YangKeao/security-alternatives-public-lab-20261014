@@ -1,0 +1,50 @@
+Started by user labadmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/synthetic-embargo
+[synthetic-embargo] $ /bin/sh -xe /tmp/jenkins10494050866029034837.sh
++ set -eu
++ rm -rf source
++ git clone --no-hardlinks /lab/fixture source
+Cloning into 'source'...
+done.
++ cd source
++ git checkout f61f240fc7a6f8976fe5bec3b28755f763966db6
+Note: switching to 'f61f240fc7a6f8976fe5bec3b28755f763966db6'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at f61f240 lab: prove regression before fix
++ python3 -m unittest discover -s tests -v
+test_cross_tenant_rejected (test_case_a.CaseA.test_cross_tenant_rejected) ... FAIL
+test_normal_batch (test_lab.Baseline.test_normal_batch) ... ok
+test_same_tenant (test_lab.Baseline.test_same_tenant) ... ok
+
+======================================================================
+FAIL: test_cross_tenant_rejected (test_case_a.CaseA.test_cross_tenant_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/var/jenkins_home/workspace/synthetic-embargo/source/tests/test_case_a.py", line 4, in test_cross_tenant_rejected
+    def test_cross_tenant_rejected(self): self.assertFalse(same_tenant("demo-a", "demo-b"))
+                                          ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: True is not false
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+FAILED (failures=1)
+Build step 'Execute shell' marked build as failure
+Archiving artifacts
+Finished: FAILURE

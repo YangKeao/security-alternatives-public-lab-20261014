@@ -1,0 +1,8 @@
+<project><actions/><description>Synthetic embargo CI; no real vulnerability or production secret.</description><keepDependencies>false</keepDependencies><properties><hudson.model.ParametersDefinitionProperty><parameterDefinitions><hudson.model.StringParameterDefinition><name>SHA</name><defaultValue>main</defaultValue></hudson.model.StringParameterDefinition></parameterDefinitions></hudson.model.ParametersDefinitionProperty></properties><scm class="hudson.scm.NullSCM"/><canRoam>true</canRoam><disabled>false</disabled><blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding><blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding><triggers/><concurrentBuild>false</concurrentBuild><builders><hudson.tasks.Shell><command>set -eu
+rm -rf source
+git clone --no-hardlinks /lab/fixture source
+cd source
+git checkout "$SHA"
+python3 -m unittest discover -s tests -v
+git archive HEAD | sha256sum | tee ../artifact-digest.txt
+</command></hudson.tasks.Shell></builders><publishers><hudson.tasks.ArtifactArchiver><artifacts>artifact-digest.txt</artifacts><allowEmptyArchive>false</allowEmptyArchive><fingerprint>true</fingerprint></hudson.tasks.ArtifactArchiver></publishers><buildWrappers/></project>

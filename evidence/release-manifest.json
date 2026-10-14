@@ -1,0 +1,37 @@
+{
+  "synthetic": true,
+  "not_a_cve": true,
+  "base": "89f709484161bda5ecef0edc8715e18fb450d33c",
+  "cases": [
+    {
+      "id": "LAB-A",
+      "canonical_commit": "149592432e3e6d36f02234b7c8b454f200627268"
+    },
+    {
+      "id": "LAB-B",
+      "canonical_commit": "3194b28e5444d8c407674c9b4e5dd57899296d78"
+    }
+  ],
+  "release_lines": {
+    "8.5": {
+      "sha": "00c68f8015e041347ca6e955801bcb36a8039810",
+      "artifact": "lab-rc1-8.5.tar",
+      "sha256": "789b365b31a2c5a4460a36e740fd9d874330b47331f5711f41362957f4ffc8df"
+    },
+    "8.1": {
+      "sha": "c11990cd14ceeb65286bc4a0cb51f5d170bbb994",
+      "artifact": "lab-rc1-8.1.tar",
+      "sha256": "7aa15bc42afe77e9c5a1e47ead269b7be3d42ba673789f3719f1dda9bd218836"
+    }
+  },
+  "bundle_sha256": "08cfc66a89df4321f3d1fc656fa3e2d9fcae8f9288b94c4ff0131c4ab46cfbdf",
+  "conflicts": [
+    {
+      "version": "8.1",
+      "case": "A",
+      "stdout": "Auto-merging policy.py\nCONFLICT (content): Merge conflict in policy.py\n",
+      "stderr": "error: could not apply 1495924... lab: fix synthetic LAB-A with regression\nhint: After resolving the conflicts, mark them with\nhint: \"git add/rm <pathspec>\", then run\nhint: \"git cherry-pick --continue\".\nhint: You can instead skip this commit with \"git cherry-pick --skip\".\nhint: To abort and get back to the state before \"git cherry-pick\",\nhint: run \"git cherry-pick --abort\".\nhint: Disable this message with \"git config set advice.mergeConflict false\"\n",
+      "unmerged": "policy.py\n"
+    }
+  ]
+}

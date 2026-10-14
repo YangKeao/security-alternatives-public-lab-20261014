@@ -1,0 +1,30 @@
+[
+  {
+    "asset": "customer-variants-manifest.json",
+    "private_anonymous_http": 404,
+    "private_download_matches": true,
+    "public_download_matches": true,
+    "sha256": "67fc1dbaf4e3dbafabed32e1345dc11d5c7652bc7175cbd1ed4a457e842428dc"
+  },
+  {
+    "asset": "customer-variants-manifest.json.asc",
+    "private_anonymous_http": 404,
+    "private_download_matches": true,
+    "public_download_matches": true,
+    "sha256": "d94a18946cd7ce0f02e64df48f7cbfb13cf07b55f803a38a240e08659c9474cf"
+  },
+  {
+    "asset": "customer-demo-a.patch",
+    "private_anonymous_http": 404,
+    "private_download_matches": true,
+    "public_download_matches": true,
+    "sha256": "3a791ed35fb19ac6bd05cf6586abef1ac148bd0964e4d9c157a364adf3092644"
+  },
+  {
+    "asset": "customer-demo-b.patch",
+    "private_anonymous_http": 404,
+    "private_download_matches": true,
+    "public_download_matches": true,
+    "sha256": "c9b24654d7139a8a05084c01b81a8716d147f25c9e7d57657e77c318457fa11f"
+  }
+]

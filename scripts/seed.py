@@ -1,0 +1,20 @@
+from pathlib import Path
+import subprocess,json
+ROOT=Path(__file__).resolve().parents[1]
+repo=ROOT/'fixture';repo.mkdir(exist_ok=True)
+def run(*a):return subprocess.check_output(a,cwd=repo,text=True).strip()
+run('git','init','-b','main');run('git','config','user.name','YangKeao');run('git','config','user.email','YangKeao@users.noreply.github.com')
+(repo/'tests').mkdir(exist_ok=True);(repo/'.github/workflows').mkdir(parents=True,exist_ok=True)
+(repo/'policy.py').write_text('''# Synthetic LAB-A fixture; this is not a real product vulnerability.\ndef same_tenant(actor, record):\n    return actor.split("-")[0] == record.split("-")[0]\n''')
+(repo/'batch.py').write_text('''# Synthetic LAB-B fixture; this is not a real product vulnerability.\ndef valid_batch(n):\n    return n > 0\n''')
+(repo/'tests/test_lab.py').write_text('''import unittest\nfrom policy import same_tenant\nfrom batch import valid_batch\nclass Baseline(unittest.TestCase):\n    def test_same_tenant(self): self.assertTrue(same_tenant("demo-a", "demo-a"))\n    def test_normal_batch(self): self.assertTrue(valid_batch(10))\n''')
+(repo/'README.md').write_text('''# Synthetic security workflow lab\n\nOnly harmless synthetic LAB-A/LAB-B cases. No real vulnerabilities, CVEs, or production data.\n\nRun `python3 -m unittest discover -s tests -v`.\n\nThis fixture is shared by the GitHub-private, GitLab-private, and manual-encrypted-Git experiments.\n''')
+(repo/'.gitignore').write_text('__pycache__/\n*.pyc\n.secrets/\n')
+sha=subprocess.check_output(['gh','api','repos/actions/checkout/git/ref/tags/v4','--jq','.object.sha'],text=True).strip()
+(repo/'.github/workflows/ci.yml').write_text(f'''name: synthetic-regression\non: [push, pull_request]\npermissions:\n  contents: read\njobs:\n  test:\n    runs-on: ubuntu-latest\n    steps:\n      - uses: actions/checkout@{sha}\n      - run: python3 -m unittest discover -s tests -v\n''')
+run('git','add','.');run('git','commit','-m','lab: synthetic baseline and reproducible regression workflow');base=run('git','rev-parse','HEAD')
+run('git','tag','lab-base');run('git','branch','release/8.5');run('git','branch','release/8.1')
+run('git','checkout','release/8.1');(repo/'policy.py').write_text('# Legacy synthetic API used to exercise a real cherry-pick conflict.\ndef same_tenant(actor, record):\n    namespace = actor.partition("-")[0]\n    return namespace == record.partition("-")[0]\n');run('git','add','policy.py');run('git','commit','-m','lab: legacy release line API for backport conflict');run('git','checkout','main')
+run('git','remote','add','private','https://github.com/YangKeao/security-embargo-private-lab-20261014.git');run('git','remote','add','public','https://github.com/YangKeao/security-alternatives-public-lab-20261014.git')
+run('git','push','private','main','release/8.5','release/8.1','lab-base');run('git','push','public','main','release/8.5','release/8.1','lab-base')
+(ROOT/'seed.json').write_text(json.dumps({'base':base,'checkout_action_sha':sha},indent=2));print('Seeded both retained repositories:',base)

@@ -1,0 +1,15 @@
+{
+  "maintainer": {
+    "fingerprint": "ACC2BD042B7599A7FCC9C7B605F04BF101904891"
+  },
+  "downstream": {
+    "fingerprint": "709EAE8F508D53966AD0016B1E645BB4A1B87901"
+  },
+  "stranger": {
+    "fingerprint": "02DF550F519D24B6EFB6FB05A18803321910BCFE"
+  },
+  "signature_verify_exit": 0,
+  "wrong_recipient_exit": 2,
+  "bundle_hash_matches": true,
+  "tampered_signature_exit": 1
+}

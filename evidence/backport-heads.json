@@ -1,0 +1,14 @@
+{
+  "8.5": {
+    "sha": "00c68f8015e041347ca6e955801bcb36a8039810",
+    "pr": 6,
+    "url": "https://github.com/YangKeao/security-embargo-private-lab-20261014/pull/6",
+    "branch": "backport/combined-8.5"
+  },
+  "8.1": {
+    "sha": "c11990cd14ceeb65286bc4a0cb51f5d170bbb994",
+    "pr": 7,
+    "url": "https://github.com/YangKeao/security-embargo-private-lab-20261014/pull/7",
+    "branch": "backport/combined-8.1"
+  }
+}
