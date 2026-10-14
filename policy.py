@@ -1,3 +1,4 @@
-# Synthetic LAB-A fixture; this is not a real product vulnerability.
+# Legacy synthetic API used to exercise a real cherry-pick conflict.
 def same_tenant(actor, record):
-    return actor.split("-")[0] == record.split("-")[0]
+    namespace = actor.partition("-")[0]
+    return namespace == record.partition("-")[0]
