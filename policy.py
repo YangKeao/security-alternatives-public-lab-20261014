@@ -1,3 +1,3 @@
-# Synthetic LAB-A fixture; this is not a real product vulnerability.
+# Synthetic LAB-A fixture.
 def same_tenant(actor, record):
-    return actor.split("-")[0] == record.split("-")[0]
+    return actor == record
