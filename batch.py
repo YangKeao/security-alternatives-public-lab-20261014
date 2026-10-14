@@ -1,3 +1,3 @@
-# Synthetic LAB-B fixture; this is not a real product vulnerability.
+# Synthetic LAB-B fixture.
 def valid_batch(n):
-    return n > 0
+    return 0 < n <= 100
